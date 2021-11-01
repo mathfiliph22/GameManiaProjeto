@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: white;
+   
+}
+/* cabeça */
+
+.container_grid{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+/* tamanho grid */
+.posicionamento_header{
+    height: 100%;
+    align-items: center;
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* posiçao do cabeçalho */
+
+
+.conta-carrinho a{
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+/* icones de conta e carrinhoi */
+.menu a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+      
+}  
+
+/* links menu */
+.menu { 
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #163b51; 
+    height: 70px;
+}
+
+
+/* posicionamento */
+
+.banner{
+    background-image: url(../img/BannerSiteWB_FIFA22_4320x1080px_v1\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+   
+               
+}
+.banner img{
+    max-width: 100%;
+}
+
+
