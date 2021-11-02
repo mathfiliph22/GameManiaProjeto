@@ -77,3 +77,115 @@ header{
 }
 
 
+
+.lançamentos {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.lançamentos a{
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;    
+
+}
+
+.produtos1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+
+}
+
+.produtos1 img{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+
+}
+
+.precos p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+.precos{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.promoções {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+.promoções a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.produtos2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+
+}
+
+.produtos2 img{
+    width: 250px;
+    height: 200px;
+}
+
+.precos2 p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+
+.precos2 {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+.sobre-GM{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sobre-GM{
+    font-family: "russo one";
+    font-size: 20px;
+} 
+.sobre-GM h1 {
+    color: #163b51;
+}
+.sobre-GM h2 {
+    color: #163b51;
+}
+.sobre-GM h3 {
+    color: #163b51;
+}
+
+.sobre-GM h4 {
+    color: #163b51;
+}
