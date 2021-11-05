@@ -2,11 +2,12 @@
 
 
 * {
-    margin: 0 ;
-    padding: 0 ;
+    margin: 0 auto; 
+    padding: 0;
     box-sizing: border-box;
-
 }
+
+/* algumas das especificaçoes de css */
 
 header{
     background-color: white;
@@ -19,6 +20,7 @@ header{
     margin: 0 auto;
 
 }
+
 /* tamanho grid */
 .posicionamento_header{
     height: 100%;
@@ -41,6 +43,7 @@ header{
 }
 
 /* icones de conta e carrinhoi */
+
 .menu a {
     font-family: "russo one";
     color: white;
@@ -63,31 +66,33 @@ header{
 /* posicionamento */
 
 .banner{
-    background-image: url(../img/BannerSiteWB_FIFA22_4320x1080px_v1\ \(5\).png);
+    background-image: url(../img/switch_image_homepage_2\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
     
    
                
 }
+
+/* banner */
 .banner img{
     max-width: 100%;
 }
 
-
-
-.lançamentos {
+/* img banner */
+.consol {
     background-color: #163b51;
     height: 70px;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    
-}
+} 
 
-.lançamentos a{
+
+.consol a{
     font-family: "russo one";
     color: white;
     text-decoration: none;
@@ -95,20 +100,21 @@ header{
 
 }
 
-.produtos1 {
+.consoles {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     height: 450px;
 
 
 }
 
-.produtos1 img{
-    display: flex;
+.consoles img{
+    width: 250px;
     justify-content: space-between;
     width: 250px;
     height: 200px;
+
 
 }
 
@@ -122,7 +128,30 @@ header{
     justify-content:space-between;
    
 }
-.promoções {
+
+.comprar1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+.Jogos {
     background-color: #163b51;
     height: 70px;
     display: flex;
@@ -132,14 +161,36 @@ header{
 
 }
 
-.promoções a {
+.jogos a {
     font-family: "russo one";
     color: white;
     text-decoration: none;
     text-transform: uppercase;   
 }
 
-.produtos2 {
+.comprar2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+.jogos1{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -148,11 +199,13 @@ header{
 
 }
 
-.produtos2 img{
+.jogos1 img{
+    display: flex;
+    justify-content: space-between;
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
-
+ 
 .precos2 p {
     color: black;
     font-family: "russo one", "sans serife";  
@@ -201,48 +254,4 @@ header{
 
     
 }  
-
-.comprar1 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
-
-
-
-}
-
-
-.comprar1{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-   
-    
-
-}
-
-.comprar2 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
-
-
-
-}
-
-
-.comprar2{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-   
-    
-
-}
 

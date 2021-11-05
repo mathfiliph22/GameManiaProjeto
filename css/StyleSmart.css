@@ -30,7 +30,6 @@ header{
 }
 /* posiçao do cabeçalho */
 
-
 .conta-carrinho a{
     text-decoration: none;
     font-family: 'Russo One', sans-serif;
@@ -41,6 +40,7 @@ header{
 }
 
 /* icones de conta e carrinhoi */
+
 .menu a {
     font-family: "russo one";
     color: white;
@@ -59,11 +59,8 @@ header{
     height: 70px;
 }
 
-
-/* posicionamento */
-
 .banner{
-    background-image: url(../img/BannerSiteWB_FIFA22_4320x1080px_v1\ \(5\).png);
+    background-image: url(../img/15-iphone-13\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -76,9 +73,7 @@ header{
     max-width: 100%;
 }
 
-
-
-.lançamentos {
+.Smartphones {
     background-color: #163b51;
     height: 70px;
     display: flex;
@@ -87,7 +82,7 @@ header{
     
 }
 
-.lançamentos a{
+.Smartphones a{
     font-family: "russo one";
     color: white;
     text-decoration: none;
@@ -95,20 +90,22 @@ header{
 
 }
 
-.produtos1 {
+.smarts1 {
     display: flex;
     justify-content:space-between;
     align-items: center;
     height: 450px;
 
+   
 
 }
 
-.produtos1 img{
+.smarts1 img{
     display: flex;
     justify-content: space-between;
     width: 250px;
     height: 200px;
+
 
 }
 
@@ -122,7 +119,31 @@ header{
     justify-content:space-between;
    
 }
-.promoções {
+
+
+.comprar1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+.Acessórios{
     background-color: #163b51;
     height: 70px;
     display: flex;
@@ -132,14 +153,14 @@ header{
 
 }
 
-.promoções a {
+.Acessórios a {
     font-family: "russo one";
     color: white;
     text-decoration: none;
     text-transform: uppercase;   
 }
 
-.produtos2 {
+.acess2 {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -148,9 +169,9 @@ header{
 
 }
 
-.produtos2 img{
+.acess2 img{
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 .precos2 p {
@@ -165,6 +186,24 @@ header{
     text-transform: uppercase;
 }
 
+.comprar2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}  
 
 .sobre-GM{
     display: flex;
@@ -201,48 +240,3 @@ header{
 
     
 }  
-
-.comprar1 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
-
-
-
-}
-
-
-.comprar1{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-   
-    
-
-}
-
-.comprar2 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
-
-
-
-}
-
-
-.comprar2{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-   
-    
-
-}
-
