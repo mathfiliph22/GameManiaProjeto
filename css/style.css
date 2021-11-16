@@ -30,6 +30,9 @@ header{
 }
 /* posiçao do cabeçalho */
 
+.barras{
+    display: none;
+}
 
 .conta-carrinho a{
     text-decoration: none;
@@ -39,6 +42,14 @@ header{
     text-transform: uppercase;
     
 }
+
+.lupa-usuario-carrinho{
+    display: none;
+    
+}
+
+
+
 
 /* icones de conta e carrinhoi */
 .menu a {
@@ -100,6 +111,7 @@ header{
     justify-content:space-between;
     align-items: center;
     height: 450px;
+    margin-bottom: -80px;
 
 
 }
@@ -112,6 +124,10 @@ header{
 
 }
 
+.produtos11{
+    display: none;
+}
+
 .precos p {
     color: black;
     font-family: "russo one", "sans serife";  
@@ -122,6 +138,33 @@ header{
     justify-content:space-between;
    
 }
+
+.comprar1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+
+  
+
+
 .promoções {
     background-color: #163b51;
     height: 70px;
@@ -144,6 +187,7 @@ header{
     justify-content:space-between;
     align-items: center;
     height: 450px;
+    margin-bottom: -80px;
 
 
 }
@@ -165,6 +209,28 @@ header{
     text-transform: uppercase;
 }
 
+
+.comprar2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
 
 .sobre-GM{
     display: flex;
@@ -200,49 +266,400 @@ header{
 
 
     
-}  
+}
 
-.comprar1 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
+.menu1{
+    display: none;
+}
 
 
+
+
+
+@media only screen and (max-width: 1920px) {
+    .container_grid {
+        width: 70%;      
+    }
+
+    .produtos11{
+        display: none;
+    }
+
+    .menu1{
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+      .container_grid {
+          width: 90%;      
+      }
+
+      .produtos11{
+        display: none;
+    }
+
+      .menu a{
+          font-size: 22px;
+      }
+
+      .lançamentos a {
+        font-size: 22px;
+      }
+
+      .promoções a{
+        font-size: 22px;
+      }
+
+
+
+      .sobre-GM{
+          width: 95%;
+          display: flex;
+          justify-content: space-around;
+          
+      }
+      H1{
+          font-size: 19px ;
+          
+      }
+
+      H2{
+        font-size: 19px ;
+      }
+
+      H3{
+        font-size: 19px ;
+    }
+
+    H4{
+        font-size: 19px ;
+    }
+    p{
+        font-size: 17px;
+    }
+
+    .menu1{
+        display: none;
+    }
+      
+}
+
+@media only screen and (max-width: 988px) {
+    .menu { 
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: #163b51; 
+        height: 70px;
+        width: 1000px;
+    }
+
+    .produtos11{
+        display: none;
+    }
+
+    .banner{
+        width: 1000px;
+    }
+
+    .lançamentos{
+        width: 1000px;
+    }
+
+    .promoções{
+        width: 1000px;
+    }
+
+    .sobre-GM{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    H1{
+        font-size: 19px ;
+        
+    }
+
+    H2{
+      font-size: 19px ;
+    }
+
+    H3{
+      font-size: 19px ;
+  }
+
+  H4{
+      font-size: 19px ;
+  }
+  p{
+      font-size: 17px;
+  }
+
+  .menu1{
+    display: none;
+}
+      
 
 }
 
 
-.comprar1{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-   
+@media only screen and (max-width: 768px){
+
+
+    .menu1{
+        display: none;
+    }
+
+     .container_grid{
+        width: 978px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+     }
+
+     .produtos1 {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 260px;
+        margin-bottom: 50px;
+       
+    
+    
+    }
+
+    .produtos11{
+        display: none;
+    }
+    
+    .produtos1 img{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 200px;
+    
+    }
+    
+    .precos p {
+        color: black;
+        font-family: "russo one", "sans serife";  
+        text-decoration: none;
+
+    } 
+    .precos{
+        display: flex;
+        justify-content:space-between;
+        width: 1000px;
+        text-transform: uppercase;
+       
+    }
+    
+    .comprar1 a{
+        color:white;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: #163b51;
+        font-family: "russo one";
+        text-transform: uppercase;
+    
+    
+    
+    }
+    
+    
+    .comprar1{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        width: 1000px;
+       
+                  
+    
+    }
+
+
+    .produtos2 {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 260px;
+        margin-bottom: 50px;
+       
+    }
+    
+    .produtos2 img{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 200px;
+    
+    } 
+    .precos2 p {
+        color: black;
+        font-family: "russo one", "sans serife";  
+        text-decoration: none;   
+    } 
+    
+    .precos2 {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        width: 1000px;
+       
+    }
+    
+    
+    .comprar2 a{
+        color:white;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: #163b51;
+        font-family: "russo one";
+        text-transform: uppercase;
+    
+    
+    
+    }
+    
+    
+    .comprar2{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        width: 1000px;
+       
+        
+    
+    }
+
+
+    .sobre-GM{
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    H1{
+        font-size: 20px ;
+        
+    }
+
+    H2{
+      font-size: 20px ;
+    }
+
+    H3{
+      font-size: 20px ;
+  }
+
+  H4{
+      font-size: 20px ;
+  }
+  p{
+      font-size: 19px;
+  }
+
+  .linha{
+      width:1000px;
+  }
+      
+  .cnpj{
+      width: 1000px;
+  }
+
+}
+
+
+@media only screen and (max-width: 428px){
+    *{
+        margin: 0 ;
+        padding: 0 ;
+        box-sizing: border-box;
+
+    }
+
+
+
+    .container_grid{
+        height: 250px;
     
 
-}
-
-.comprar2 a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: #163b51;
-    font-family: "russo one";
-    text-transform: uppercase;
-
-
-
-}
-
-
-.comprar2{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
    
+
+    }
+
+
+
+    .conta-carrinho{
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu1{       
+        width: 1000px; 
+        background-color: #163b51; 
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .menu1 p {
+        font-family: "russo one";
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 50px;
+        display: flex;
+
+    }
+
+    .menu1 a{
+        color: white;
+
+
+
+    }
+
+    .Barras{
+        height: 95px;
+        
+    }
+
+    .lançamentos{
+        height: 100px;
+        width: 1000px;
+    }
+
+    .lançamentos a {
+        font-size: 50px;
+    }
+
+  
+
+    
     
 
+
+
+
+
+
+  
+    
 }
 
+
+
+
+  
+    
