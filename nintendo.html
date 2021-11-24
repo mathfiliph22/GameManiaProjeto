@@ -38,14 +38,32 @@
 
 </header>
 
-<nav class="menu">
-    <a href="#">PlayStation</a>
-    <a href="#">Xbox</a>
-    <a href="#">Nintendo</a>
-    <a href="#">Notebooks</a>
-    <a href="#">Smartphones</a>
-    <!-- BARRA DE MENU -->           
-</nav>
+<div class="meuMenu">
+    <nav id="menu" class="menu">
+        <a href="#">PlayStation</a>
+        <a href="#">Xbox</a>
+        <a href="#">Nintendo</a>
+        <a href="#">Notebooks</a>
+        <a href="#">Smartphones</a>
+        <!-- BARRA DE MENU --> 
+        
+      
+    </nav>
+
+    <nav class="menu1">
+        <p>MENU</p>
+        <a href="#" onclick= "mostrarMenu()"><img class="Barras" src="img/opçoes e barras.png" alt="barrasdemenu"></a>
+
+
+
+    </nav>
+        
+  
+
+
+
+</div>
+
 
 <div class="banner">
     <img src="img/switch_image_homepage_2 1.png" alt="banner">
@@ -179,7 +197,15 @@
 
     <div class="redes-pag">
 
-        <h4>REDES SOCIAIS</h4> 
+        <h4>SE CONECTE</h4> 
+        <form action="">
+            <input id="campo-email" type="email" placeholder="E-mail" required>
+            <button onclick="enviarEmail()"> Cadastrar</button>
+
+        </form>
+
+
+
         <a href="#"><img src="img/FACEBOOK.png" width="35px" height="25px" alt="face"> 
         </a> <a href="#"> <img src="img/insta 1.png" width="35px" height="25px" alt="insta"> </a> 
         <a href="#"><img src="img/tik tok 1.png" width="35px" height="25px" alt="tik tok" </a>
@@ -192,7 +218,44 @@
  
 <div class="cnpj">
     cnpj:  00.000.000/0001.00  © Todos os direitos reservados. 2021
-</div>    
+</div>   
+
+
+<script>
+
+    let menu = document.getElementById("menu");
+
+    function mostrarMenu() {
+        if (menu.style.display == "none") {
+            menu.style.display = "flex"
+
+        } else {
+            menu.style.display = "none"
+        }
+            
+  
+        
+    
+    }
+
+
+
+
+   
+
+
+
+
+
+    
+</script>
+
+<script src="js/script.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 
 

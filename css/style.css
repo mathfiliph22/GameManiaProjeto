@@ -8,6 +8,10 @@
 
 }
 
+.menu1{
+    display: none;
+}
+
 header{
     background-color: white;
    
@@ -271,12 +275,15 @@ header{
 .menu1{
     display: none;
 }
-
+  
 
 
 
 
 @media only screen and (max-width: 1920px) {
+
+ 
+
     .container_grid {
         width: 70%;      
     }
@@ -288,9 +295,16 @@ header{
     .menu1{
         display: none;
     }
+      
+
+  
   }
   
   @media only screen and (max-width: 1200px) {
+
+
+
+
       .container_grid {
           width: 90%;      
       }
@@ -343,9 +357,16 @@ header{
         display: none;
     }
       
+    
+      
 }
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 988px){
+   
+
+    .barras{
+        display: none;
+    }
     .menu { 
         height: 100%;
         display: flex;
@@ -401,17 +422,50 @@ header{
   .menu1{
     display: none;
 }
-      
+  
+
+
 
 }
 
 
 @media only screen and (max-width: 768px){
 
-
-    .menu1{
+    .menu{
         display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position:fixed;
+       
     }
+
+
+    .menu1 p{
+        font-size: 40px;
+        font-family: "russo one";
+        color: white;
+
+    }
+
+    .menu1 {
+        height: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #163b51; 
+        height: 70px;
+        width: 1000px;
+    }
+
+    .menu1 img{
+        height: 60px;
+    }
+
+ 
+
+  
+   
 
      .container_grid{
         width: 978px;
@@ -421,7 +475,7 @@ header{
         align-items: center;
         
     
-     }
+    }
 
      .produtos1 {
         display: flex;
@@ -573,10 +627,21 @@ header{
       width: 1000px;
   }
 
+ 
+
+
+
 }
 
 
 @media only screen and (max-width: 428px){
+
+    .menu{
+        display: none;
+    }
+
+
+ 
     *{
         margin: 0 ;
         padding: 0 ;
@@ -600,40 +665,11 @@ header{
         display: none;
     }
 
-    .menu {
-        display: none;
-    }
-
-    .menu1{       
-        width: 1000px; 
-        background-color: #163b51; 
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .menu1 p {
-        font-family: "russo one";
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 50px;
-        display: flex;
-
-    }
-
-    .menu1 a{
-        color: white;
+  
 
 
 
-    }
-
-    .Barras{
-        height: 95px;
-        
-    }
+  
 
     .lançamentos{
         height: 100px;

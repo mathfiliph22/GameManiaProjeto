@@ -246,6 +246,11 @@ header{
     
 }  
 
+.menu1{
+    display: none;
+}
+  
+
 @media only screen and (max-width: 1920px) {
     .container_grid {
         width: 70%;      
@@ -258,6 +263,8 @@ header{
     .menu1{
         display: none;
     }
+
+
   }
   
   @media only screen and (max-width: 1200px) {
@@ -378,10 +385,44 @@ header{
 
 @media only screen and (max-width: 768px){
 
-
-    .menu1{
+    .menu{
         display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position:fixed;
+       
     }
+
+
+    .menu1 p{
+        font-size: 40px;
+        font-family: "russo one";
+        color: white;
+
+    }
+
+    .menu1 {
+        height: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #163b51; 
+        height: 70px;
+        width: 1000px;
+    }
+
+    .menu1 img{
+        height: 60px;
+    }
+
+ 
+
+  
+   
+
+
+
 
      .container_grid{
         width: 978px;
