@@ -91,6 +91,12 @@ header{
     max-width: 100%;
 }
 
+#carrosel img{
+    display: none;
+}
+
+
+
 
 
 .lançamentos {
